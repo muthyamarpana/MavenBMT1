@@ -1,0 +1,5 @@
+testScenarios\DatePicker.class
+testScenarios\DynDataHand.class
+testScenarios\HandlingChkBoxRadioBtns.class
+testScenarios\MouseHoverEvents.class
+testScenarios\SwitchingWindows.class
