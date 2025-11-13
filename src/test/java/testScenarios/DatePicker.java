@@ -21,6 +21,7 @@ public class DatePicker {
 		driver.findElement(By.id("datepicker")).click();
 		while(true)
 		{
+			System.out.println("Updated...");
 			String act_month=driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div/div/span[1]")).getText();
 			String act_yr=driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div/div/span[2]")).getText();
 			if(exp_month.equals(act_month) && act_yr.equals(String.valueOf(exp_yr)))
